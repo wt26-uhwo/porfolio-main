@@ -374,7 +374,11 @@ p {
   margin: auto;
   padding: 0 20px;
   box-sizing: border-box;
+  
   background-image: url("../image/background_sections.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   display: flex;
   align-items: center;
@@ -447,7 +451,11 @@ p {
   margin: auto;
   padding: 0 20px;
   box-sizing: border-box;
+  
   background-image: url("../image/background_sections.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   display: flex;
   align-items: center;
