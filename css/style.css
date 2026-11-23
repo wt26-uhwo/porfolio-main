@@ -98,7 +98,7 @@ p {
   width: 100%;
   min-height: 600px;
 
-  background-image: url("image/hero_background.png");
+  background-image: url("../image/hero_background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -371,7 +371,7 @@ p {
   margin: auto;
   padding: 0 20px;
   box-sizing: border-box;
-  background-image: url(/image/background_sections.png)
+  background-image: url("../image/background_sections.png")
 }
 
 .row-school-project {
@@ -440,7 +440,7 @@ p {
   margin: auto;
   padding: 0 20px;
   box-sizing: border-box;
-  background-image: url(/image/background_sections.png)
+  background-image: url("../image/background_sections.png")
 }
 
 .row-freelance-project {
