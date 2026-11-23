@@ -137,7 +137,10 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transform: rotate(180deg);
   z-index: -1;
 }
@@ -372,6 +375,10 @@ p {
   padding: 0 20px;
   box-sizing: border-box;
   background-image: url("../image/background_sections.png")
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row-school-project {
@@ -441,6 +448,10 @@ p {
   padding: 0 20px;
   box-sizing: border-box;
   background-image: url("../image/background_sections.png")
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row-freelance-project {
