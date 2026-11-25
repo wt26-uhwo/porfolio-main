@@ -34,7 +34,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav">
                     <!-- Menu Links -->
                     <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
@@ -61,8 +61,8 @@
 
     <!-- Start of Project Section -->
     <section class="project">
-        <h1>Project</h1>
-        <h2>to shows my school projects and freelance works</h2>
+        <h1>Projects</h1>
+        <h2>My school and freelance projects</h2>
         <!-- Start of Card -->
         <div class="container-cards">
             <div class="row">
@@ -74,7 +74,7 @@
                                 learn
                                 about my
                                 work, please feel free to view my project</p>
-                            <a href="/project.html" class="btn btn-primary">View Project</a>
+                            <a href="project.html" class="btn btn-primary">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                                 clients. To learn
                                 about my
                                 work, please feel free to view my project</p>
-                            <a href="/project.html" class="btn btn-primary">View Project</a>
+                            <a href="project.html" class="btn btn-primary">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -103,14 +103,11 @@
         <h4>Graphic Designer, Animator, Filmmaker, and Web Designer</h4>
         <div class="content-row">
             <div class="content-about-me">
-                <p>My background is when I was born in the world. I was given to do my purpose. Before,
-                    I was not aware of my creative gifts. When I was in high school, I discover my potential
-                    gift when creating my video and taking the Liberal Arts courses from Maui College.
-                    I ended up in pursuing the gifts. Even though my discovery of gift, I need to
-                    collect my creative tools, which is from the courses from West Oahu. <br>
-                    My mission is to bring your vision to life through creativity and design. Whether
-                    I'm working with individual clients, companies, or brands, my goal is to represent
-                    your identity, not my own. </p>
+                <p>I discovered my creative interests in high school while making videos and taking Liberal Arts
+                    courses at Maui College. That experience inspired me to pursue creative work and continue
+                    developing my skills through courses at West Oahu.</p>
+                <p>My mission is to bring your vision to life through creativity and design. Whether I'm working
+                    with individual clients, companies, or brands, my goal is to represent your identity, not my own.</p>
             </div>
             <div class="image-about-me"><img src="image/wendell_photo.png" class="card-img-right"
                     alt="boy opening the hollywood.">
@@ -126,8 +123,6 @@
                 <img src="image/graphic_design.png" class="fixed-icon" alt="graphic design.">
             </div>
         </div>
-
-
     </section>
     <!-- End of About Me Section -->
 
@@ -136,34 +131,33 @@
         <div class="container-contact">
             <div class="row-contact">
                 <div class="col-contact">
-                    <h1>Contact Me</h1>>
+                    <h1>Contact Me</h1>
                     <h2>Let's Connect</h2>
                     <p>If you have any questions and concerns, feel free to fill out the contact form</p>
                 </div>
-                <form class="contact-form">
-                    <div class="col-contact">
-                        <form class="contact-form">
-                            <div class="form-grid">
-                                <div class="form-group">
-                                    <input type="text" id="first-name" class="form-control" placeholder="First name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" id="last-name" class="form-control" placeholder="Last name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" id="email" class="form-control" placeholder="Email Address">
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" id="phone" class="form-control" placeholder="Phone Number">
-                                </div>
-                                <div class="form-group-comments">
-                                    <textarea id="comments" class="form-control" placeholder="Comment"
-                                        rows="5"></textarea>
-                                </div>
-                                <a type="submit" class="btn btn-primary">Submit</a>
-                            </div>
-                        </form>
+                <form class="contact-form form-grid" method="post">
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" name="firstName" class="form-control">
                     </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name" name="lastName" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" name="phone" class="form-control">
+                    </div>
+                    <div class="form-group-comments">
+                        <label for="comments">Comment</label>
+                        <textarea id="comments" name="comments" class="form-control" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
     </section>
